@@ -34,7 +34,7 @@ export default function Home() {
       } else {
         setStatus("❌ The ancient texts speak of your deceit. You must first join our sacred circles.");
       }
-    } catch (err) {
+    } catch {
       setStatus("❌ The cosmic forces block our connection. The Nillion Cult's servers are in turmoil...");
     } finally {
       setLoading(false);
