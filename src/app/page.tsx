@@ -43,10 +43,10 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-dark text-white flex flex-col items-center justify-center">
-      <h1 style={{ fontFamily: "'Bungee Spice', cursive" }} className="text-4xl text-center mb-2 drop-shadow-lg">
+      <h1 className="font-bungeeSpice text-4xl text-center mb-2 drop-shadow-lg">
         Welcome to the Ceremony of Initiation
       </h1>
-      <h2 style={{ fontFamily: "'Bungee Spice', cursive" }} className="text-lg text-center mb-6 font-bold">
+      <h2 className="font-bungeeSpice text-lg text-center mb-6 font-bold">
         The Elders Await Your Presence
       </h2>
       <div className="bg-neonBlue rounded-xl shadow-2xl p-6 w-full max-w-md mb-6">

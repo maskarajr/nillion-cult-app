@@ -16,8 +16,20 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Bungee Spice';
+  src: url('/fonts/bungee-spice/BungeeSpice-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 .font-bungeeShade {
   font-family: 'Bungee Shade', cursive !important;
+}
+
+.font-bungeeSpice {
+  font-family: 'Bungee Spice', cursive !important;
 }
 
 .font-underdog {
@@ -48,15 +60,3 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-
-/* Removed h1 and h2 font-family overrides to allow Tailwind class-based font control */
-
-@font-face {
-  font-family: 'Bungee Spice';
-  src: url('/fonts/bungee-spice/BungeeSpice-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-
