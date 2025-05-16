@@ -122,7 +122,7 @@ export default function Home() {
                   <li>Type <code>/userid</code> and send it.</li>
                   <li>The bot will reply with your user ID. Copy and paste it here.</li>
                 </ol>
-                <div className="mt-2 text-xs text-gray-300">If you get a 'User not found' error with your username, please try this method.</div>
+                <div className="mt-2 text-xs text-gray-300">If you get a &apos;User not found&apos; error with your username, please try this method.</div>
               </div>
             </div>
           </div>
